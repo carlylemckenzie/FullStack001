@@ -1,21 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Module2CodingAssignment</title>
-  <link href="css/style.css" type="text/css"
-    rel="stylesheet" />
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>W3 Assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
 <body>
-<h1>Our Menu</h1>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html" class="pull-left visible-xs visible-sm visible-md visible-lg"><h1>Food,LLC</h1></a>
+            </div>
 
-<div class="row">
-  <div id="container" class="col-lg-3 col-md-5"><p id="p1">Chicken</p><p>Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans, and the fluids of most living organisms. It is vital for all known forms of life, even though it provides no calories or organic nutrients.</p></div>
-  <div id="container" class="col-lg-3 col-md-5"><p id="p2">Beef</p><p>Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans, and the fluids of most living organisms. It is vital for all known forms of life, even though it provides no calories or organic nutrients.</p></div>
-  <div id="container" class="col-lg-3 col-md-10"><p id="p3">Sushi</p><p>Water is a transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's streams, lakes, and oceans, and the fluids of most living organisms. It is vital for all known forms of life, even though it provides no calories or organic nutrients.</p></div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target= "#collapsable-nav"  aria-expanded="false">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+          </button>
+          </div>
 
-</div>
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+             <ul id="nav-list" class="nav navbar-nav navbar-right">
 
+              <li>
+                <a href="#">
+                  <br class="hidden-xs"> Chicken</a>
+                <hr
+              </li>
+              <li>
+                <a href="#">
+                  <br class="hidden-xs"> Beef</a>
+                  <hr
+              </li>
+              <li>
+                <a href="#">
+                  <br class="hidden-xs"> Sushi</a>
+                  <hr
+              </li>
+
+            </ul><!-- #nav-list -->
+          </div><!-- .collapse .navbar-collapse -->
+        </div>
+      </nav>
+    </header>
+    <div id="main-content" class="container">
+      <h2 id="menu" class="text-center">Our Menu</h2>
+       <div id="text" class="text-center">
+         <h4 class="text-center">Chicken</h4>
+         <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam. The Library’s goal is to enhance the public’s understanding of the 45 words of the First Amendment set out above and to do so in impartial, historical, analytical, practical, and accessible ways. FIRE’s First Amendment Library provides visitors core information about the First Amendment’s five freedoms: religion, speech, press, assembly, & petition.Congress shall make no law respecting an establishment of religion, or prohibiting the free exercise thereof; or abridging the freedom of speech,or of the press; or the right of the people peaceably to assemble, and to petition the government for a redress of grievances.
+         </p>
+       </div>
+    </div>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
